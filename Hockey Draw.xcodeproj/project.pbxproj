@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		77166C342DF9A46D0071BED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77166C122DF9A46D0071BED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77166C192DF9A46D0071BED6;
+			remoteInfo = "Hockey Draw";
+		};
+		77166C3E2DF9A46D0071BED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77166C122DF9A46D0071BED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77166C192DF9A46D0071BED6;
+			remoteInfo = "Hockey Draw";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77166C1A2DF9A46D0071BED6 /* Hockey Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77166C332DF9A46D0071BED6 /* Hockey DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey DrawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77166C3D2DF9A46D0071BED6 /* Hockey DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey DrawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		77166C452DF9A46D0071BED6 /* Exceptions for "Hockey Draw" folder in "Hockey Draw" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 77166C192DF9A46D0071BED6 /* Hockey Draw */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		77166C1C2DF9A46D0071BED6 /* Hockey Draw */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				77166C452DF9A46D0071BED6 /* Exceptions for "Hockey Draw" folder in "Hockey Draw" target */,
+			);
+			path = "Hockey Draw";
+			sourceTree = "<group>";
+		};
+		77166C362DF9A46D0071BED6 /* Hockey DrawTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hockey DrawTests";
+			sourceTree = "<group>";
+		};
+		77166C402DF9A46D0071BED6 /* Hockey DrawUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hockey DrawUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77166C172DF9A46D0071BED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77166C302DF9A46D0071BED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77166C3A2DF9A46D0071BED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77166C112DF9A46D0071BED6 = {
+			isa = PBXGroup;
+			children = (
+				77166C1C2DF9A46D0071BED6 /* Hockey Draw */,
+				77166C362DF9A46D0071BED6 /* Hockey DrawTests */,
+				77166C402DF9A46D0071BED6 /* Hockey DrawUITests */,
+				77166C1B2DF9A46D0071BED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77166C1B2DF9A46D0071BED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77166C1A2DF9A46D0071BED6 /* Hockey Draw.app */,
+				77166C332DF9A46D0071BED6 /* Hockey DrawTests.xctest */,
+				77166C3D2DF9A46D0071BED6 /* Hockey DrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77166C192DF9A46D0071BED6 /* Hockey Draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77166C462DF9A46D0071BED6 /* Build configuration list for PBXNativeTarget "Hockey Draw" */;
+			buildPhases = (
+				77166C162DF9A46D0071BED6 /* Sources */,
+				77166C172DF9A46D0071BED6 /* Frameworks */,
+				77166C182DF9A46D0071BED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				77166C1C2DF9A46D0071BED6 /* Hockey Draw */,
+			);
+			name = "Hockey Draw";
+			packageProductDependencies = (
+			);
+			productName = "Hockey Draw";
+			productReference = 77166C1A2DF9A46D0071BED6 /* Hockey Draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77166C322DF9A46D0071BED6 /* Hockey DrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77166C4B2DF9A46D0071BED6 /* Build configuration list for PBXNativeTarget "Hockey DrawTests" */;
+			buildPhases = (
+				77166C2F2DF9A46D0071BED6 /* Sources */,
+				77166C302DF9A46D0071BED6 /* Frameworks */,
+				77166C312DF9A46D0071BED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77166C352DF9A46D0071BED6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77166C362DF9A46D0071BED6 /* Hockey DrawTests */,
+			);
+			name = "Hockey DrawTests";
+			packageProductDependencies = (
+			);
+			productName = "Hockey DrawTests";
+			productReference = 77166C332DF9A46D0071BED6 /* Hockey DrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77166C3C2DF9A46D0071BED6 /* Hockey DrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77166C4E2DF9A46D0071BED6 /* Build configuration list for PBXNativeTarget "Hockey DrawUITests" */;
+			buildPhases = (
+				77166C392DF9A46D0071BED6 /* Sources */,
+				77166C3A2DF9A46D0071BED6 /* Frameworks */,
+				77166C3B2DF9A46D0071BED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77166C3F2DF9A46D0071BED6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77166C402DF9A46D0071BED6 /* Hockey DrawUITests */,
+			);
+			name = "Hockey DrawUITests";
+			packageProductDependencies = (
+			);
+			productName = "Hockey DrawUITests";
+			productReference = 77166C3D2DF9A46D0071BED6 /* Hockey DrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77166C122DF9A46D0071BED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					77166C192DF9A46D0071BED6 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					77166C322DF9A46D0071BED6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 77166C192DF9A46D0071BED6;
+					};
+					77166C3C2DF9A46D0071BED6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 77166C192DF9A46D0071BED6;
+					};
+				};
+			};
+			buildConfigurationList = 77166C152DF9A46D0071BED6 /* Build configuration list for PBXProject "Hockey Draw" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77166C112DF9A46D0071BED6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 77166C1B2DF9A46D0071BED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77166C192DF9A46D0071BED6 /* Hockey Draw */,
+				77166C322DF9A46D0071BED6 /* Hockey DrawTests */,
+				77166C3C2DF9A46D0071BED6 /* Hockey DrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77166C182DF9A46D0071BED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77166C312DF9A46D0071BED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77166C3B2DF9A46D0071BED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77166C162DF9A46D0071BED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77166C2F2DF9A46D0071BED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77166C392DF9A46D0071BED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77166C352DF9A46D0071BED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77166C192DF9A46D0071BED6 /* Hockey Draw */;
+			targetProxy = 77166C342DF9A46D0071BED6 /* PBXContainerItemProxy */;
+		};
+		77166C3F2DF9A46D0071BED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77166C192DF9A46D0071BED6 /* Hockey Draw */;
+			targetProxy = 77166C3E2DF9A46D0071BED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77166C472DF9A46D0071BED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hockey Draw/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "db23.Hockey-Draw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77166C482DF9A46D0071BED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hockey Draw/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "db23.Hockey-Draw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77166C492DF9A46D0071BED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77166C4A2DF9A46D0071BED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6W932TN323;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77166C4C2DF9A46D0071BED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "db23.Hockey-DrawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hockey Draw.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hockey Draw";
+			};
+			name = Debug;
+		};
+		77166C4D2DF9A46D0071BED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "db23.Hockey-DrawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hockey Draw.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hockey Draw";
+			};
+			name = Release;
+		};
+		77166C4F2DF9A46D0071BED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "db23.Hockey-DrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hockey Draw";
+			};
+			name = Debug;
+		};
+		77166C502DF9A46D0071BED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6W932TN323;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "db23.Hockey-DrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hockey Draw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77166C152DF9A46D0071BED6 /* Build configuration list for PBXProject "Hockey Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77166C492DF9A46D0071BED6 /* Debug */,
+				77166C4A2DF9A46D0071BED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77166C462DF9A46D0071BED6 /* Build configuration list for PBXNativeTarget "Hockey Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77166C472DF9A46D0071BED6 /* Debug */,
+				77166C482DF9A46D0071BED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77166C4B2DF9A46D0071BED6 /* Build configuration list for PBXNativeTarget "Hockey DrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77166C4C2DF9A46D0071BED6 /* Debug */,
+				77166C4D2DF9A46D0071BED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77166C4E2DF9A46D0071BED6 /* Build configuration list for PBXNativeTarget "Hockey DrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77166C4F2DF9A46D0071BED6 /* Debug */,
+				77166C502DF9A46D0071BED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77166C122DF9A46D0071BED6 /* Project object */;
+}
