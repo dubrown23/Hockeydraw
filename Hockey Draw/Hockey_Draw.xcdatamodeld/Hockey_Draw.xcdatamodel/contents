@@ -1,4 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Drill" representedClassName="Drill" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateModified" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="tags" optional="YES" attributeType="String"/>
+        <relationship name="objects" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DrillObject" inverseName="drill" inverseEntity="DrillObject"/>
+        <relationship name="paths" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DrillPath" inverseName="drill" inverseEntity="DrillPath"/>
+        <relationship name="variations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DrillVariation" inverseName="parentDrill" inverseEntity="DrillVariation"/>
+    </entity>
+    <entity name="DrillObject" representedClassName="DrillObject" syncable="YES">
+        <attribute name="hasPuck" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="positionLabel" optional="YES" attributeType="String"/>
+        <attribute name="startPosition" optional="YES" attributeType="Transformable"/>
+        <attribute name="teamColor" optional="YES" attributeType="Transformable"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="drill" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Drill" inverseName="objects" inverseEntity="Drill"/>
+        <relationship name="incomingPaths" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrillPath" inverseName="endObject" inverseEntity="DrillPath"/>
+        <relationship name="paths" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DrillPath" inverseName="startObject" inverseEntity="DrillPath"/>
+    </entity>
+    <entity name="DrillPath" representedClassName="DrillPath" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="pathData" optional="YES" attributeType="Transformable"/>
+        <attribute name="skatingType" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="drill" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Drill" inverseName="paths" inverseEntity="Drill"/>
+        <relationship name="endObject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrillObject" inverseName="incomingPaths" inverseEntity="DrillObject"/>
+        <relationship name="startObject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrillObject" inverseName="paths" inverseEntity="DrillObject"/>
+    </entity>
+    <entity name="DrillVariation" representedClassName="DrillVariation" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="parentDrill" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Drill" inverseName="variations" inverseEntity="Drill"/>
+        <relationship name="variations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DrillVariation" inverseName="variations" inverseEntity="DrillVariation"/>
+    </entity>
 </model>

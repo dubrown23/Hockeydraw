@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		77166C532DF9A4FE0071BED6 /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77166C522DF9A4FE0071BED6 /* PencilKit.framework */; };
+		77166C552DF9A50B0071BED6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77166C542DF9A50B0071BED6 /* AVFoundation.framework */; };
+		77166C632DFA4ADB0071BED6 /* DrillPath+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C5F2DFA4ADB0071BED6 /* DrillPath+CoreDataClass.swift */; };
+		77166C642DFA4ADB0071BED6 /* Drill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C5B2DFA4ADB0071BED6 /* Drill+CoreDataClass.swift */; };
+		77166C652DFA4ADB0071BED6 /* DrillVariation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C622DFA4ADB0071BED6 /* DrillVariation+CoreDataProperties.swift */; };
+		77166C662DFA4ADB0071BED6 /* DrillPath+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C602DFA4ADB0071BED6 /* DrillPath+CoreDataProperties.swift */; };
+		77166C672DFA4ADB0071BED6 /* DrillObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C5E2DFA4ADB0071BED6 /* DrillObject+CoreDataProperties.swift */; };
+		77166C682DFA4ADB0071BED6 /* Drill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C5C2DFA4ADB0071BED6 /* Drill+CoreDataProperties.swift */; };
+		77166C692DFA4ADB0071BED6 /* DrillObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C5D2DFA4ADB0071BED6 /* DrillObject+CoreDataClass.swift */; };
+		77166C6A2DFA4ADB0071BED6 /* DrillVariation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77166C612DFA4ADB0071BED6 /* DrillVariation+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		77166C342DF9A46D0071BED6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +40,20 @@
 		77166C1A2DF9A46D0071BED6 /* Hockey Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77166C332DF9A46D0071BED6 /* Hockey DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey DrawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77166C3D2DF9A46D0071BED6 /* Hockey DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey DrawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77166C522DF9A4FE0071BED6 /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = System/Library/Frameworks/PencilKit.framework; sourceTree = SDKROOT; };
+		77166C542DF9A50B0071BED6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		77166C572DF9CACE0071BED6 /* HockeyDraw - Overview.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "HockeyDraw - Overview.md"; sourceTree = "<group>"; };
+		77166C582DF9CB490071BED6 /* HockeyDraw - Context.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "HockeyDraw - Context.md"; sourceTree = "<group>"; };
+		77166C592DF9CB9F0071BED6 /* HockeyDraw - Update Log.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "HockeyDraw - Update Log.md"; sourceTree = "<group>"; };
+		77166C5A2DF9CBF70071BED6 /* HockeyDraw - Protocol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "HockeyDraw - Protocol.md"; sourceTree = "<group>"; };
+		77166C5B2DFA4ADB0071BED6 /* Drill+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drill+CoreDataClass.swift"; sourceTree = "<group>"; };
+		77166C5C2DFA4ADB0071BED6 /* Drill+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drill+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		77166C5D2DFA4ADB0071BED6 /* DrillObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrillObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		77166C5E2DFA4ADB0071BED6 /* DrillObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrillObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		77166C5F2DFA4ADB0071BED6 /* DrillPath+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrillPath+CoreDataClass.swift"; sourceTree = "<group>"; };
+		77166C602DFA4ADB0071BED6 /* DrillPath+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrillPath+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		77166C612DFA4ADB0071BED6 /* DrillVariation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrillVariation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		77166C622DFA4ADB0071BED6 /* DrillVariation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrillVariation+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77166C552DF9A50B0071BED6 /* AVFoundation.framework in Frameworks */,
+				77166C532DF9A4FE0071BED6 /* PencilKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +117,19 @@
 		77166C112DF9A46D0071BED6 = {
 			isa = PBXGroup;
 			children = (
+				77166C5B2DFA4ADB0071BED6 /* Drill+CoreDataClass.swift */,
+				77166C5C2DFA4ADB0071BED6 /* Drill+CoreDataProperties.swift */,
+				77166C5D2DFA4ADB0071BED6 /* DrillObject+CoreDataClass.swift */,
+				77166C5E2DFA4ADB0071BED6 /* DrillObject+CoreDataProperties.swift */,
+				77166C5F2DFA4ADB0071BED6 /* DrillPath+CoreDataClass.swift */,
+				77166C602DFA4ADB0071BED6 /* DrillPath+CoreDataProperties.swift */,
+				77166C612DFA4ADB0071BED6 /* DrillVariation+CoreDataClass.swift */,
+				77166C622DFA4ADB0071BED6 /* DrillVariation+CoreDataProperties.swift */,
+				77166C562DF9CAB30071BED6 /* Documentation */,
 				77166C1C2DF9A46D0071BED6 /* Hockey Draw */,
 				77166C362DF9A46D0071BED6 /* Hockey DrawTests */,
 				77166C402DF9A46D0071BED6 /* Hockey DrawUITests */,
+				77166C512DF9A4FE0071BED6 /* Frameworks */,
 				77166C1B2DF9A46D0071BED6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +142,26 @@
 				77166C3D2DF9A46D0071BED6 /* Hockey DrawUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		77166C512DF9A4FE0071BED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77166C542DF9A50B0071BED6 /* AVFoundation.framework */,
+				77166C522DF9A4FE0071BED6 /* PencilKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77166C562DF9CAB30071BED6 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				77166C572DF9CACE0071BED6 /* HockeyDraw - Overview.md */,
+				77166C582DF9CB490071BED6 /* HockeyDraw - Context.md */,
+				77166C592DF9CB9F0071BED6 /* HockeyDraw - Update Log.md */,
+				77166C5A2DF9CBF70071BED6 /* HockeyDraw - Protocol.md */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77166C632DFA4ADB0071BED6 /* DrillPath+CoreDataClass.swift in Sources */,
+				77166C642DFA4ADB0071BED6 /* Drill+CoreDataClass.swift in Sources */,
+				77166C652DFA4ADB0071BED6 /* DrillVariation+CoreDataProperties.swift in Sources */,
+				77166C662DFA4ADB0071BED6 /* DrillPath+CoreDataProperties.swift in Sources */,
+				77166C672DFA4ADB0071BED6 /* DrillObject+CoreDataProperties.swift in Sources */,
+				77166C682DFA4ADB0071BED6 /* Drill+CoreDataProperties.swift in Sources */,
+				77166C692DFA4ADB0071BED6 /* DrillObject+CoreDataClass.swift in Sources */,
+				77166C6A2DFA4ADB0071BED6 /* DrillVariation+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +393,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
