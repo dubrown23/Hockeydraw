@@ -146,6 +146,91 @@ Tags: #pencilkit #drawing #linestyles #pathsmoothing #arrows #ui #bugfix
   - Sequential animations (skate then shoot) not working properly
   - Need way to connect paths at arrow endpoints
 Tags: #tokens #puck #animation #gestures #pencilkit
+
+---
+## 12.19.2024 - Major Architecture Migration to SpriteKit
+- **Completely rewrote app architecture using SpriteKit**:
+  - Replaced UIKit animation system with SpriteKit's SKAction-based animations
+  - Migrated from Timer/CADisplayLink to built-in SpriteKit game loop
+  - Changed from manual path calculations to SKAction.follow() for smooth movement
+  - Reduced codebase by ~70% (ViewController from 1750 to 500 lines)
+- **Created new SpriteKit node classes**:
+  - HockeyRinkScene: Main scene managing all game objects and animations
+  - PlayerNode: SKShapeNode-based players with automatic path following
+  - PuckNode: Physics-ready puck with particle effects and smooth animations
+  - PathNode: Intelligent path rendering with proper hockey line styles
+- **Maintained existing functionality**:
+  - All drawing modes work (Forward, Backward, W/Puck, Pass, Shoot)
+  - Player placement and team color switching
+  - PencilKit integration for natural drawing
+  - Core Data model compatibility for future save/load
+- **Improved animation system**:
+  - Sequential path execution per player
+  - Automatic speed adjustments based on movement type
+  - Built-in completion handlers for animation chaining
+  - No manual progress tracking needed
+- **Known issues to address**:
+  - Puck transfer on passes not detecting receiving player correctly
+  - Shooting animation needs puck physics implementation
+  - Path connection system needs refinement
+  - Selected player state sometimes lost between mode switches
+- **Visual improvements**:
+  - Added selection rings for players
+  - Puck indicator when player has possession
+  - Smooth appearance animations
+  - Professional arrow rendering on paths
+- **Code organization improvements**:
+  - Separated IceRinkView into its own file
+  - Clear separation of concerns (Scene handles logic, VC handles UI)
+  - Removed complex state management in favor of SpriteKit's built-in systems
+  - Cleaner delegate pattern between scene and view controller
+Tags: #spritekit #architecture #animation #refactor #performance
+
+---
+
+## 07.02.2025 - Animation System Fixes & Sequencing Implementation
+- **Fixed critical pass animation bugs**:
+  - Pass animation now completes properly with puck arriving at destination
+  - Receiving player correctly shows puck indicator only after puck arrives
+  - Fixed puck transfer logic using `notifyPuckTransferred()` method
+  - Removed complex predictive receiver detection in favor of simple endpoint detection
+- **Implemented proper animation sequencing**:
+  - Added animation queue system to handle player dependencies
+  - Players waiting for passes are held in `waitingPlayers` set
+  - Pass must complete before receiving player can skate with puck
+  - Fixed issue where animations would skip or play out of order
+- **Fixed play button behavior**:
+  - Play button now always resets to start before playing
+  - `resetPositions()` properly restores original puck ownership
+  - Finds original puck holder based on path types (pass/shoot/withPuck)
+  - Animations can be replayed consistently
+- **Fixed undo functionality**:
+  - Undo button now properly removes paths and players
+  - Added debug logging for troubleshooting
+  - Simplified undo logic to be more reliable
+  - Updates button states after undo action
+- **Fixed UI issues**:
+  - Resolved SKAction.run trailing closure compilation errors
+  - Fixed double puck indicator (hid player's puck indicator, kept actual puck object)
+  - Fixed double animation bug where players would animate twice
+  - Puck now moves smoothly with player instead of lagging behind
+- **Added button state management**:
+  - Undo button enabled only when content exists
+  - Play button enabled only when paths exist
+  - Clear button enabled only when content exists
+  - All buttons update properly after actions
+- **Code architecture improvements**:
+  - Added `updateButtonStates()` to HockeyRinkSceneDelegate protocol
+  - Improved separation of concerns between ViewController and Scene
+  - Added comprehensive debug logging for animation flow
+- **Known issues resolved**:
+  - Pass animation now works correctly on replay
+  - Animation sequencing respects dependencies
+  - No more duplicate animations or skipped passes
+Tags: #animation #sequencing #bugfix #pass #undo #ui #buttons
+
+---
+
 ## Update Type Categories
 - **Project Setup** - Initial project creation and configuration
 - **Feature Implementation** - New functionality added
